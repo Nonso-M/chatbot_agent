@@ -8,3 +8,4 @@ google-api-python-client
 langchain-openai==0.1.9 
 google-cloud-secret-manager
 google-auth==2.17.3
+langchain-community

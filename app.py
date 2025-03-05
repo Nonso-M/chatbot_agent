@@ -3,7 +3,7 @@ import warnings
 import streamlit as st
 from openai import OpenAI
 from langchain.schema import SystemMessage, HumanMessage, AIMessage
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from src.source import get_youtube_query, get_youtube_videos
 from src.utils import augment_prompt, get_collection, parse_youtube_data
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
